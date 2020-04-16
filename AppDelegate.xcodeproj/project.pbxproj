@@ -13,6 +13,8 @@
 		18F8571124472883008999FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8570F24472883008999FE /* Main.storyboard */; };
 		18F8571324472886008999FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F8571224472886008999FE /* Assets.xcassets */; };
 		18F8571624472886008999FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F8571424472886008999FE /* LaunchScreen.storyboard */; };
+		18F8571E24475DEF008999FE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8571D24475DEF008999FE /* SettingsViewController.swift */; };
+		18F8572024476042008999FE /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18F8571F24476042008999FE /* GreenViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		18F8571224472886008999FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F8571524472886008999FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F8571724472886008999FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18F8571D24475DEF008999FE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		18F8571F24476042008999FE /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				18F8571224472886008999FE /* Assets.xcassets */,
 				18F8571424472886008999FE /* LaunchScreen.storyboard */,
 				18F8571724472886008999FE /* Info.plist */,
+				18F8571D24475DEF008999FE /* SettingsViewController.swift */,
+				18F8571F24476042008999FE /* GreenViewController.swift */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				18F8570E24472883008999FE /* ViewController.swift in Sources */,
 				18F8570A24472883008999FE /* AppDelegate.swift in Sources */,
 				18F8570C24472883008999FE /* SceneDelegate.swift in Sources */,
+				18F8571E24475DEF008999FE /* SettingsViewController.swift in Sources */,
+				18F8572024476042008999FE /* GreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
